@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+    box-sizing: border-box;
+}
+
+.card {
+    background-color: rgb(6, 6, 49);
+    height: 100vh;
+}
+
+.wrapper {
+    height: 100%;
+    width: 1140px;
+    margin: auto;
+}
+
+.title {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.menu-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    padding-top: 50px;
+    }
+
+      .menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-transform: uppercase;
+        gap: 20px;
+    }
+
+    .menu-button {
+        color: white;
+        text-decoration: none;
+    }
+
+    .menu-section {
+        margin-top: 17%;
+    }
+
+    .text {
+        margin-bottom: 17px;
+        color: white;
+        font-size: 75px;
+        text-align: center;
+    }
+
+    .text-section {
+        margin-bottom: 30px;
+        color: white;
+        font-size: 40px;
+        text-align: center
+    }
+
+    .button-menu {
+        border-radius: 20px;
+        background-color: green;
+        width: 190px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        padding: 10px 0 10px 0;
+        margin: auto;
+    }
+
+    .munu-button {
+        border: 3px solid gray;
+        text-decoration: none;
+        border-radius: 15px;
+        font-size: 20px;
+    }
+
+    .button {
+        display: inline-flex;
+        gap: 10px;
+        justify-content: center;
+    }
